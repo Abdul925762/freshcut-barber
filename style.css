@@ -529,3 +529,53 @@ footer p {
     cursor: pointer;
     font-size: 15px;
 }
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo h2 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.logo span {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+}
+
+.nav-links a:hover {
+    opacity: 0.6;
+}
+
+@media (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+        padding: 20px 15px;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+}

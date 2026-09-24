@@ -515,3 +515,12 @@ footer p {
     }
 
 }
+.about-text a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.about-text button {
+    display: inline-block;
+    margin-top: 0;
+}

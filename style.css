@@ -410,3 +410,66 @@ padding: 50px 15px;
     }
 
 }
+#contact {
+    padding: 90px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 42px;
+    margin: 10px 0 15px;
+}
+
+.contact-description {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
+.contact-item {
+    width: 250px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item h3 {
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    margin: 0;
+}
+
+#contact button {
+    padding: 14px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+@media (max-width: 600px) {
+
+    #contact {
+        padding: 60px 15px;
+    }
+
+    #contact h2 {
+        font-size: 34px;
+    }
+
+    .contact-item {
+        width: 80%;
+    }
+
+}

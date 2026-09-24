@@ -137,3 +137,68 @@ footer p {
     margin: 8px;
     font-size: 14px;
 }
+#home {
+min-height: 80vh;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 50px;
+padding: 60px 30px;
+}
+
+.hero-text {
+max-width: 500px;
+}
+
+.welcome {
+font-size: 14px;
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+.hero-text h1 {
+font-size: 55px;
+margin: 15px 0;
+}
+
+.hero-text p {
+font-size: 18px;
+line-height: 1.6;
+}
+
+.hero-image img {
+border-radius: 15px;
+max-width: 100%;
+}
+
+.hero-buttons {
+margin-top: 25px;
+}
+
+.hero-buttons button {
+padding: 14px 22px;
+margin-right: 10px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+font-size: 15px;
+}
+
+@media (max-width: 600px) {
+#home {
+flex-direction: column;
+text-align: center;
+padding: 50px 15px;
+}
+
+```
+.hero-text h1 {
+    font-size: 40px;
+}
+
+.hero-buttons button {
+    margin: 5px;
+}
+```
+
+}

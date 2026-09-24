@@ -321,6 +321,38 @@
     <a href="https://wa.me/2349135250897?text=Hello%20FreshCut%20Barber%20Shop%2C%20I%27d%20like%20to%20book%20an%20appointment." class="whatsapp-float">
         💬
     </a>
+```html id="p4d1qg"
+<script>
+
+function sendBooking() {
+
+    var name = document.getElementById("customerName").value;
+    var phone = document.getElementById("customerPhone").value;
+    var service = document.getElementById("service").value;
+    var date = document.getElementById("bookingDate").value;
+    var time = document.getElementById("bookingTime").value;
+
+    if (name === "" || phone === "" || service === "" || date === "" || time === "") {
+        alert("Please fill in all the booking details.");
+        return;
+    }
+
+    var message =
+        "Hello FreshCut Barber Shop, I'd like to book an appointment.%0A%0A" +
+        "Name: " + encodeURIComponent(name) + "%0A" +
+        "Phone: " + encodeURIComponent(phone) + "%0A" +
+        "Service: " + encodeURIComponent(service) + "%0A" +
+        "Date: " + encodeURIComponent(date) + "%0A" +
+        "Time: " + encodeURIComponent(time);
+
+    var whatsapp = "https://wa.me/2349135250897?text=" + message;
+
+    window.open(whatsapp, "_blank");
+
+}
+
+</script>
+```
 
 
 </body>

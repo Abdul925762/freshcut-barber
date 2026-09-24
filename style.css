@@ -519,7 +519,15 @@ footer p {
     display: inline-block;
     margin-top: 10px;
 }
+.about-text a {
+    display: inline-block;
+    margin-top: 10px;
+}
 
+.about-text button {
+    display: inline-block;
+    margin-top: 0;
+}
 .about-text button {
     display: inline-block;
     margin-top: 0;
